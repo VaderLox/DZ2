@@ -1,5 +1,7 @@
 export const CardOne = () => {
-    return <h3>
-        123
-    </h3>
+    return <div className="cardNew">
+        <h3>
+            Ориентация на результат
+        </h3>
+    </div>
 }
