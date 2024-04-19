@@ -13,7 +13,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em rosybrown);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -42,6 +42,29 @@
 .read-the-docs {
   color: #888;
 }
+
 .cardNew {
-  padding: 0px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
+  border: medium solid black;
+  border-radius: 12px;
+  margin: 5px;
+}
+.cardNew:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.cardNew.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.CardTen {
+  h3 {
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    border: medium solid black;
+    border-radius: 12px;
+  }
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 100px 100px 100px;
+  justify-content: center;
+  align-items: center;
 }
